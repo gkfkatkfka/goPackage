@@ -2,9 +2,33 @@ package main
 
 import (
 	"../input"
+	"bufio"
 	"fmt"
 	"log"
+	"os"
 )
+
+func FilereadString(filename string)([]string,error){
+	var strs []string
+	file,err:=os.Open(filename)
+
+	if err!=nil{
+		return nil,err
+	}
+	scanner:=bufio.NewScanner(file)
+	for scanner.Scan(){
+		str:=scanner.Text()
+		strs=append(strs,str)
+	}
+	err=file.Close()
+	if err!=nil{
+		return nil, err
+	}
+	if scanner.Err()!=nil{
+		return nil, scanner.Err()
+	}
+	return strs,nil
+}
 
 func errCheck(e error){
 	if e!=nil{
@@ -19,22 +43,28 @@ func main(){
 	fmt.Println(input.InputFloat())
 
 	//=============================================================================================================================//
-
 	/*파일 읽어오기*/
+
+	//실제 경로를 확인하기 위해 - 이렇게 안 하면 오류남
+	path,err:=os.Getwd()
+	path=path+"\\src\\"
+
+	// string
+	strings,err:=FilereadString(path+"string.txt")
+	errCheck(err)
+	fmt.Println(strings)
+
 	// float64
-	floats,err:=input.FilereadFloat("C:\\Users\\gkfka\\Documents\\대학\\대2 2학기\\오픈소스프로그래밍\\packages\\src\\main\\float.txt")
+	floats,err:=input.FilereadFloat(path+"float.txt")
 	errCheck(err)
 	fmt.Println(floats)
 
 	// int
-	ints,err:=input.FilereadInt("C:\\Users\\gkfka\\Documents\\대학\\대2 2학기\\오픈소스프로그래밍\\packages\\src\\main\\int.txt")
+	ints,err:=input.FilereadInt(path+"int.txt")
 	errCheck(err)
 	fmt.Println(ints)
 
-	// string
-	strings,err:=input.FilereadString("C:\\Users\\gkfka\\Documents\\대학\\대2 2학기\\오픈소스프로그래밍\\packages\\src\\main\\string.txt")
-	errCheck(err)
-	fmt.Println(strings)
+
 
 	//=============================================================================================================================//
 

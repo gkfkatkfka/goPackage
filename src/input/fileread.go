@@ -9,6 +9,7 @@ import(
 )
 
 //string 읽어오기
+/*
 func FilereadString(filename string)([]string,error){
 	var strs []string
 	file,err:=os.Open(filename)
@@ -30,7 +31,7 @@ func FilereadString(filename string)([]string,error){
 	}
 	return strs,nil
 }
-
+*/
 //float64 읽어오기
 func FilereadFloat(filename string)([]float64,error){
 	var numbers []float64

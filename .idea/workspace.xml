@@ -27,6 +27,11 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gkfka\Documents\대학\대2 2학기\오픈소스프로그래밍\packages\src" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="packages" />
@@ -51,21 +56,21 @@
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
     <state x="634" y="275" key="FileChooserDialogImpl/0.0.1707.1067@0.0.1707.1067" timestamp="1607668539121" />
-    <state width="1662" height="291" key="GridCell.Tab.0.bottom" timestamp="1607670862641">
+    <state width="1662" height="291" key="GridCell.Tab.0.bottom" timestamp="1607672443384">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state width="1662" height="291" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1607670862641" />
-    <state width="1662" height="291" key="GridCell.Tab.0.center" timestamp="1607670862641">
+    <state width="1662" height="291" key="GridCell.Tab.0.bottom/0.0.1707.1067@0.0.1707.1067" timestamp="1607672443384" />
+    <state width="1662" height="291" key="GridCell.Tab.0.center" timestamp="1607672443384">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state width="1662" height="291" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1607670862641" />
-    <state width="1662" height="291" key="GridCell.Tab.0.left" timestamp="1607670862641">
+    <state width="1662" height="291" key="GridCell.Tab.0.center/0.0.1707.1067@0.0.1707.1067" timestamp="1607672443384" />
+    <state width="1662" height="291" key="GridCell.Tab.0.left" timestamp="1607672443384">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state width="1662" height="291" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1607670862641" />
-    <state width="1662" height="291" key="GridCell.Tab.0.right" timestamp="1607670862641">
+    <state width="1662" height="291" key="GridCell.Tab.0.left/0.0.1707.1067@0.0.1707.1067" timestamp="1607672443384" />
+    <state width="1662" height="291" key="GridCell.Tab.0.right" timestamp="1607672443384">
       <screen x="0" y="0" width="1707" height="1067" />
     </state>
-    <state width="1662" height="291" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1607670862641" />
+    <state width="1662" height="291" key="GridCell.Tab.0.right/0.0.1707.1067@0.0.1707.1067" timestamp="1607672443384" />
   </component>
 </project>
